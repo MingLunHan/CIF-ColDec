@@ -141,7 +141,7 @@ model:
     use_utt_specific_phrases: False
     utt_specific_phrases_path: ""
 
-    # contextual encoder
+    # CPN encoder settings
     direct_predict: False
     contextual_encoder: "san"
     num_ctxt_encoder_layers: 4
@@ -154,6 +154,7 @@ model:
     ctxt_layer_prepostprocess_dropout: 0.0
     ctxt_attention_dropout: 0.0
 
+    # CPN decoder settings
     num_ctxt_decoder_layers: 2
 
     # context-augmented query
@@ -161,14 +162,14 @@ model:
     augmented_history_length: 3
     augmented_query_integration_type: "concat_proj"
 
-    # contextual attention part
+    # CPN attention settings
     simple_ctxt_attention: False
     ctxt_attention_layer: 1
     integration_mode: "concat"
     ctxt_inputs_query_text: True
     ctxt_inputs_query_pinyin: False
 
-    # contextual token attention part
+    # Token-level attention settings
     use_token_attention: False
     token_attention_topk_filter_mode: "global"
     token_level_query: "cif_outputs"
@@ -192,14 +193,14 @@ model:
     new_specaugment: True
     ps: 0.03
 
-    # joint decoding settings
+    # Joint decoding settings
     joint_ctc_cif_decoding: False
     joint_decoding_lambda: 0.0
     joint_only_ctc: False
     joint_ctc_temperature: 1.0
     joint_cif_temperature: 0.8
 
-    # collaborative decoding settings
+    # Collaborative Decoding settings
     joint_ctxt_cif_decoding: True
     joint_ctxt_temperature: 1.0
     only_ctxt_greedy_decoding: False
@@ -208,11 +209,11 @@ model:
     renormalize_topk_num: 10
     use_asi: False
 
-    # use pretrained cif main body
+    # Use pretrained cif main body
     use_pretrained_cif_body: True
     pretrained_cif_body_model_path: "/opt/tiger/CIF/egs/librispeech/exp/librispeech_80fbank_token_end2end_stl_asr/cif_best_model/models"
 
-    # freezing settings
+    # Freezing settings
     freeze_specific_variables: True
     freeze_contextual_encoder: False
 
