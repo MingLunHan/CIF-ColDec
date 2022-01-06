@@ -1,11 +1,11 @@
-# CIF-ColDec
+# **CIF-ColDec**
 Supporting Information for enhanced Collaborative Decoding (ColDec) on CIF-based Speech Recognition for the convenience of reproductivity and comparison.
 
-### 1. Data
+### 1. **Data**
 
 Note that all biasing lists are session-level, because each utterance in one test set shares the same biasing list.
 
-#### a. \b{LibriSpeech}
+#### a. **LibriSpeech**
 Files in data directory are simulated session-level biasing phrases for test-clean and test-other, respectively. Details about LibriSpeech test sets and biasing lists are listed here:
 
 | Details                                             | test-clean | test-other |
@@ -15,7 +15,7 @@ Files in data directory are simulated session-level biasing phrases for test-cle
 | Number of all phrases in biasing list               | 1171 | 1129 |
 | Coverage (%) (# of all biasing words in references / # of all words in references) | 2.74 | 2.78 |
 
-#### b. In-house Large-scale 160k Hours Dataset
+#### b. **In-house Large-scale 160k Hours Dataset**
 The in-house test sets are collected from internal real meetings. 
 The names of participants and the terms of aritificial intelligence, pattern recognition, signal processing, are treated as contextual information.
 Details about in-house test sets and biasing lists are listed here:
@@ -30,10 +30,10 @@ Details about in-house test sets and biasing lists are listed here:
 | Type of biasing phrases                             | name | term |
 | Coverage (%) (# of all biasing tokens in references / # of all tokens in references) | 18.7 | 35.5 |
 
-### 2. Config
+### 2. **Config**
 Configuration files in config directory cover all experiments on LibriSpeech in paper.
 
-### 3. References
+### 3. **References**
 \[1\] CIF-based Collaborative Decoding for End-to-end Contextual Speech Recognition https://arxiv.org/abs/2012.09466
 
 \[2\] CIF: Continuous Integrate-and-Fire for End-to-End Speech Recognition https://arxiv.org/abs/1905.11235
