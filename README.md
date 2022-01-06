@@ -25,7 +25,7 @@ Details about in-house test sets and biasing lists are listed here:
 | Number of all phrases in biasing list               | 633 | 2415 |
 | Rare Ratio (%) (# of rare target phrases / # of all target phrases) | 78.79 | 39.53 |
 | Type of biasing phrases                             | name | term |
-| Coverage (%) (# of all biasing tokens in references / # of all tokens in references) |  |  |
+| Coverage (%) (# of all biasing tokens in references / # of all tokens in references) | 18.7 | 35.5 |
 
 ### 2. Config
 Configuration files in config directory cover all experiments on LibriSpeech in paper.
