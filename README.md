@@ -12,7 +12,7 @@ Details about in-house test sets are listed here:
 | Number of total utterances                          | 748 | 1219 |
 | Number of distractor pharses in biasing list        | 600 | 1775 |
 | Number of all phrases in biasing list               | 633 | 2415 |
-| Rare Ratio (# rare target phrases / # of all target phrases) | 78.79 | 39.53 |
+| Rare Ratio (# of rare target phrases / # of all target phrases) | 78.79 | 39.53 |
 | Type of biasing phrases                             | name | term |
 
 ### Config
