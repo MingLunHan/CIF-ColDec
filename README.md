@@ -8,10 +8,10 @@ Details about LibriSpeech test sets and biasing lists are listed here:
 
 | Details                                             | test-clean | test-other |
 | :-----                                              | :----: | :----: |
-| Number of biasing utterances                        |  |  |
+| Number of biasing utterances                        | 955 | 1032 |
 | Number of total utterances                          | 2620 | 2939 |
 | Number of all phrases in biasing list               | 1171 | 1129 |
-| Coverage (%) (# of all biasing words in references / # of all words in references) |  |  |
+| Coverage (%) (# of all biasing words in references / # of all words in references) | 2.74 | 2.78 |
 
 The in-house test sets are collected from internal real meetings. 
 The names of participants and the terms of aritificial intelligence, pattern recognition, signal processing, are treated as contextual information.
