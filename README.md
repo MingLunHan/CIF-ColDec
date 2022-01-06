@@ -14,7 +14,7 @@ Details about LibriSpeech test sets and biasing lists are listed here:
 | Coverage (%) (# of all biasing words in references / # of all words in references) |  |  |
 
 The in-house test sets are collected from internal real meetings. 
-The names of participants and techinical terms are treated as contextual information.
+The names of participants and terms of AI, signal processing, are treated as contextual information.
 Details about in-house test sets and biasing lists are listed here:
 
 | Details                                             | test-name | test-term |
