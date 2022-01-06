@@ -2,7 +2,7 @@
 Supporting Information for Collaborative Decoding (ColDec) on CIF-based Speech Recognition.
 
 ### 1. Data
-Files in data directory are simulated session-level biasing phrases for test-clean and test-other, respectively. Note that all biasing lists are session-level, because the utterances in a test set shares the same biasing list.
+Files in data directory are simulated session-level biasing phrases for test-clean and test-other, respectively. Note that all biasing lists are session-level, because each utterance in one test set shares the same biasing list.
 
 Details about LibriSpeech test sets and biasing lists are listed here:
 
