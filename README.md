@@ -9,7 +9,7 @@ Details about LibriSpeech test sets and biasing lists are listed here:
 | Details                                             | test-clean | test-other |
 | :-----                                              | :----: | :----: |
 | Number of biasing utterances                        |  |  |
-| Number of total utterances                          |  |  |
+| Number of total utterances                          | 2620 | 2939 |
 | Number of all phrases in biasing list               | 1171 | 1129 |
 | Coverage (%) (# of all biasing words in references / # of all words in references) |  |  |
 
