@@ -13,6 +13,8 @@ Details about LibriSpeech test sets and biasing lists are listed here:
 | Number of all phrases in biasing list               | 1171 | 1129 |
 | Coverage (%) (# of all biasing words in references / # of all words in references) |  |  |
 
+The in-house test sets are collected from internal real meetings. 
+The names of participants and techinical terms are treated as contextual information.
 Details about in-house test sets and biasing lists are listed here:
 
 | Details                                             | test-name | test-term |
