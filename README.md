@@ -1,5 +1,5 @@
 # CIF-ColDec
-Supporting Information for enhanced Collaborative Decoding (ColDec) on CIF-based Speech Recognition.
+Supporting Information for enhanced Collaborative Decoding (ColDec) on CIF-based Speech Recognition for the convenience of reproductivity and comparison.
 
 ### 1. Data
 Files in data directory are simulated session-level biasing phrases for test-clean and test-other, respectively. Note that all biasing lists are session-level, because each utterance in one test set shares the same biasing list.
