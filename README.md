@@ -29,4 +29,6 @@ Details about in-house test sets and biasing lists are listed here:
 Configuration files in config directory cover all experiments on LibriSpeech in paper.
 
 ### 3. References
-\[1\] CIF-based Collaborative Decoding for End-to-end Contextual Speech Recognition
+\[1\] CIF-based Collaborative Decoding for End-to-end Contextual Speech Recognition https://arxiv.org/abs/2012.09466
+\[2\] CIF: Continuous Integrate-and-Fire for End-to-End Speech Recognition https://arxiv.org/abs/1905.11235
+
