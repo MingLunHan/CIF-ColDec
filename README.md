@@ -18,7 +18,7 @@ Files in data directory are simulated session-level biasing phrases for test-cle
 #### b. **In-house Large-scale 160k Hours Dataset**
 The in-house test sets are collected from internal real meetings. 
 The names of participants and the terms of aritificial intelligence, pattern recognition, signal processing, are treated as contextual information.
-Details about in-house test sets and biasing lists are listed here:
+Details about the in-house test sets and biasing lists are listed here:
 
 | Details                                             | test-name | test-term |
 | :-----                                              | :----: | :----: |
