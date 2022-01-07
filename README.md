@@ -16,9 +16,7 @@ Files in data directory are simulated session-level biasing phrases for test-cle
 | Coverage (%) (# of all biasing words in references / # of all words in references) | 2.74 | 2.78 |
 
 #### b. **In-house Large-scale 160k Hours Dataset**
-The in-house 160k hours ASR datasets contains Chinese Mandarin audios and English audios. Its test sets are collected from internal real meetings. 
-The names of participants and the terms of aritificial intelligence, pattern recognition, signal processing, are treated as contextual information.
-Details about the in-house test sets and biasing lists are listed as follows:
+The in-house 160k hours ASR datasets contains Chinese Mandarin audios and English audios. Most of the data are self-collected and manually labeled. Its test sets are collected from internal real meetings. The names of participants and the terms of aritificial intelligence, pattern recognition, signal processing, are treated as contextual information. Details about the in-house test sets and biasing lists are listed as follows:
 
 | Details                                             | test-name | test-term |
 | :-----                                              | :----: | :----: |
