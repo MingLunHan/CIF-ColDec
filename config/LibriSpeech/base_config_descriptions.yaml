@@ -69,7 +69,7 @@ model:
 
     # cif part
     produce_weights_type: # select how to generate weight in cif
-    conv_cif_num_layers: # the number of layers of convolution layers
+    conv_cif_num_layers: # the number of convolution layers
     conv_cif_width_string: # kernel size of convolution layers
     conv_cif_num_filters: # output dimension of convolution weight generator
     conv_cif_dropout:
@@ -157,14 +157,14 @@ model:
     force_add_no_bias_option: # whether to add an extra no-bias option at the token level
 
     # SpecAug
-    use_specaugment: # whether to use specaug, please refer "SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition"
+    use_specaugment: # whether to use specaug, please refer to "SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition"
     F: # as mentioned in specaug
     T: # as mentioned in specaug
     mF: # as mentioned in specaug
     mT: # as mentioned in specaug
     p: # as mentioned in specaug
     new_specaugment: # whether to use new adaptive specaug
-    ps: # as mentioned in adaptive specaug, please refer "SPECAUGMENT ON LARGE SCALE DATASETS"
+    ps: # as mentioned in adaptive specaug, please refer to "SPECAUGMENT ON LARGE SCALE DATASETS"
 
     # Collaborative Decoding settings
     joint_ctxt_cif_decoding: # whether to conduct collaborative decoding during inference
