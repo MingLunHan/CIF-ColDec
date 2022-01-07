@@ -33,7 +33,7 @@ Details about the in-house test sets and biasing lists are listed as follows:
 ### 2. **Config**
 Complete Configuration files in config directory cover all experiments on LibriSpeech in paper. The learning rate scheduler is shown here:
 
-https://github.com/MingLunHan/CIF-ColDec/blob/main/learning_rate_scheduler.png
+![image](https://github.com/MingLunHan/CIF-ColDec/blob/main/learning_rate_scheduler.png)
 
 ### 3. **References**
 \[1\] CIF-based Collaborative Decoding for End-to-end Contextual Speech Recognition https://arxiv.org/abs/2012.09466
