@@ -202,7 +202,7 @@ train:
     each_decay_step:    # the frequency of decay
     peak_lr:            # the peak learning rate
     init_lr:            # the init learning rate
-    shrink_time:        # the shrink time of each decay
+    shrink_time:        # end_lr / peak_lr
 
     learning_rate: # the learning rate
     beta1: # beta1 in adam optimizer, default 0.90
