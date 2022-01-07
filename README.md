@@ -31,7 +31,7 @@ Details about the in-house test sets and biasing lists are listed here:
 | Coverage (%) (# of all biasing tokens in references / # of all tokens in references) | 18.7 | 35.5 |
 
 ### 2. **Config**
-Configuration files in config directory cover all experiments on LibriSpeech in paper.
+Complete Configuration files in config directory cover all experiments on LibriSpeech in paper.
 
 ### 3. **References**
 \[1\] CIF-based Collaborative Decoding for End-to-end Contextual Speech Recognition https://arxiv.org/abs/2012.09466
