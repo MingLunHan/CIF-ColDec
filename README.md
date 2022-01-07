@@ -6,7 +6,7 @@ Supporting Information for enhanced Collaborative Decoding (ColDec) on CIF-based
 Note that all biasing lists are session-level, because each utterance in one test set shares the same biasing list.
 
 #### a. **LibriSpeech**
-Files in data directory are simulated session-level biasing phrases for test-clean and test-other, respectively. Details about LibriSpeech test sets and biasing lists are listed here:
+Files in data directory are simulated session-level biasing phrases for test-clean and test-other, respectively. Details about LibriSpeech test sets and biasing lists are listed as follows:
 
 | Details                                             | test-clean | test-other |
 | :-----                                              | :----: | :----: |
@@ -18,7 +18,7 @@ Files in data directory are simulated session-level biasing phrases for test-cle
 #### b. **In-house Large-scale 160k Hours Dataset**
 The in-house 160k hours ASR datasets contains Chinese Mandarin audios and English audios. Its test sets are collected from internal real meetings. 
 The names of participants and the terms of aritificial intelligence, pattern recognition, signal processing, are treated as contextual information.
-Details about the in-house test sets and biasing lists are listed here:
+Details about the in-house test sets and biasing lists are listed as follows:
 
 | Details                                             | test-name | test-term |
 | :-----                                              | :----: | :----: |
