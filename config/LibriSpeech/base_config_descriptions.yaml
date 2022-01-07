@@ -1,0 +1,278 @@
+---
+task: "stl_hvd_train"
+num_gpus: 1
+exp_basedir:
+
+model:
+    model_name: "cif_coldec"
+    vocab_size:
+    char_vocab_path:
+    pinyin_vocab_path:
+
+    # front end settings
+    use_cnn_frontend: # whether to apply cnn-based frontend
+    conv_norm_type: # select the type of normalization
+    down_sample_conv_num_layers: # the number of convolution layers for down sampling
+    down_sample_conv_num_filters: # the number of filters in the convolution
+    additional_module: # select the type of additional module, such as mu module
+    additional_module_num_layers: # the number of additional module layers
+    additional_module_num_filters: # the number of filters in the convolution
+    num_frame_stacking: # the number of stacked frames
+    num_frame_striding: # the number of strided frames
+
+    # self-attention encoder/decoder setting
+    self_attention_type: # select the type of self attention, default dot_product
+    num_heads: # the number of attention heads, denoted as h in paper
+    hidden_size: # the embedding size, aka, d_model in paper
+    filter_size: # the feed forward projection dimension, aka, d_ff in paper
+    ffn_layer: # select the type of feed forward network
+    layer_preprocess_sequence: # select the type of layer preprocess
+    layer_postprocess_sequence: # select the type of layer postprocess
+    norm_type: # select the type of normalization
+    norm_epsilon:
+    pos:
+    proximity_bias: # whether to apply proximity bias
+
+    attention_key_channels:
+    attention_value_channels:
+    parameter_attention_key_channels:
+    parameter_attention_value_channels:
+    max_relative_position:
+
+    num_encoder_layers: # the number of self-attention blocks in encoder
+    encoder_self_attention_type:
+    sa_pooling_layers: # the pooling layer id in self-attention encoder
+
+    num_decoder_layers: # the number of self-attention blocks in decoder
+    decoder_self_attention_type:
+
+    use_conformer_encoder: # whether to apply conformer as the basic block of encoder
+    conformer_conv_width: # the kernel size of conv layer in conformer
+    use_sin_rel_dot_product: # whether to use positional embedding for relative dot product attention
+    conformer_add_pad_mask:
+
+    # use auto-regressive (ar) /non-auto-regressive (nar) decoder
+    use_teacher_forcing: # whether to apply teach forcing training mode
+    use_pss: # whether to use parallel scheduled sampling
+    pss_rate: # rate of parallel scheduled sampling
+
+    # regularizer
+    layer_prepostprocess_dropout:
+    attention_dropout:
+    relu_dropout:
+
+    # extra
+    loss_multiplier:
+    shared_embedding_and_softmax_weights: # whether to share the embedding and final projection weights
+    multiply_embedding_mode: # whether to scale embedding
+    symbol_modality_num_shards:
+
+    # cif part
+    produce_weights_type: # select how to generate weight in cif
+    conv_cif_num_layers: # the number of layers of convolution layers
+    conv_cif_width_string: # kernel size of convolution layers
+    conv_cif_num_filters: # output dimension of convolution weight generator
+    conv_cif_dropout:
+    dense_cif_units: # output dimension of dense weight generator
+
+    cif_weight_threshold: # the firing threshold of cif accumulated weight
+    use_scaling_strategy: # whether to apply scaling strategy
+    use_tail_handling: # whether to apply tail handling
+    add_eos_to_target:
+
+    # all loss setting
+    calculated_loss: # losses to be calculated
+
+    # ce loss
+    label_smoothing: # the epsilon of label smoothing
+    ls_type: # select the type of label smoothing, such as uniform.
+
+    # ctc loss on the encoder
+    ctc_loss_on_encoder: # whether to apply ctc loss on encoder
+    ctc_loss_lambda: # the weight of ctc loss
+
+    # quantity loss
+    quantity_loss_lambda: # the weight of quantity loss
+
+    # Contextual biasing settings
+    use_coldec: # whether to apply collaborative decoding
+    phrases_type: # the type of input phrases, default text
+    contextual_content: # decide what n-grams will be sampled from references to build biasing list for training batch
+    num_c_batch: # decide how many biasing lists to be build
+    average_mode: # the mode of combining losses from mulitple biasing lists
+    max_phrase_len: # limit the max len of biasing phrase
+    ctxt_text_vocab_size:
+    ctxt_pinyin_vocab_size:
+    disable_contextual_phrases_generation_op:
+    disable_contextual_phrases_uniq_op:
+
+    use_no_bias_option: # whether to use no-bias option
+    train_used_ngram_per_utt: # decide how many phrases to be extracted from one sample during training
+    train_p_keep: # the probability to keep extracted phrases during training
+    eval_used_ngram_per_utt: # decide how many phrases to be extracted from one sample during evaluation
+
+    # External phrases settings
+    use_specific_phrases: # whether to use specified biasing list during inference
+    specific_phrases_path: # path to specified biasing list file
+    use_random_phrases: # whether to use random samples phrases
+    random_phrases_path:
+    use_utt_specific_phrases: # whether to use utterance-level biasing list
+    utt_specific_phrases_path:
+
+    # CPN encoder settings
+    direct_predict: # whether to predict contextual outputs from CPN encoder outputs directly
+    contextual_encoder: # the type of network structure of CPN encoder
+    num_ctxt_encoder_layers: # the number of layers in CPN encoder
+    ctxt_num_heads: # the number of attention heads in CPN encoder
+    nar_decoder_use_triangle_bias: # whether to use future masking for nar CPN decoder
+    ctxt_encoder_hidden_size:
+    ctxt_encoder_filter_size:
+    ctxt_encoder_self_attention_type:
+    ctxt_encoder_position_encoding_type: # select the type of position information for the inputs of CPN encoder
+    ctxt_layer_prepostprocess_dropout:
+    ctxt_attention_dropout:
+
+    # CPN decoder settings
+    num_ctxt_decoder_layers: # the number of CPN decoder layers
+
+    # CPN attention settings
+    simple_ctxt_attention: # whether to use simple attention
+    ctxt_attention_layer: # the number of attention layers
+    integration_mode: # the mode for combining c_i and m_i, default concat as mentioned in paper
+    ctxt_inputs_query_text: # whether to use the phrase embedding encoded from grapheme sequence as query
+    ctxt_inputs_query_pinyin:
+
+    # Token-level attention settings
+    use_token_attention: # whether to apply token attention
+    token_attention_topk_filter_mode: # decide how to filter phrase candidates, global for full sequence attention, local for past several steps' attention
+    token_level_query: # decide the query for token attention
+    screened_phrase_num: # the number of phrase candidates
+    use_integrated_token_embedding: # default True, actually a redundant hyper-parameter now
+    concat_phrase_embeddings: # whether concatenate token embedding and its corresponding phrase embedding
+    add_phrase_embeddings: # whether add token embedding and its corresponding phrase embedding
+    token_attention_outputs_comb_location: # where to combine token attention outputs
+    token_embedding_fusion_type: # decide how to combine token attention outputs with decoder outputs or inputs
+    token_attention_type: # the type of token attention
+    ctxt_token_attention_layer:
+    force_add_no_bias_option: # whether to add an extra no-bias option at the token level
+
+    # SpecAug
+    use_specaugment: # whether to use specaug, please refer "SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition"
+    F: # as mentioned in specaug
+    T: # as mentioned in specaug
+    mF: # as mentioned in specaug
+    mT: # as mentioned in specaug
+    p: # as mentioned in specaug
+    new_specaugment: # whether to use new adaptive specaug
+    ps: # as mentioned in adaptive specaug, please refer "SPECAUGMENT ON LARGE SCALE DATASETS"
+
+    # Collaborative Decoding settings
+    joint_ctxt_cif_decoding: # whether to conduct collaborative decoding during inference
+    joint_ctxt_temperature: # the smoothing temperature for the output probs of CPN decoder
+    only_ctxt_greedy_decoding:
+    coldec_lambda: # the interpolation weight of the output probs of CPN decoder
+    topk_renormalize: # whether to use context purification
+    renormalize_topk_num: # aka, K mentionaed in paper
+    use_asi: # whether to use attention scaling interpolation, banned in future work
+
+    # Use pretrained cif main body
+    use_pretrained_cif_body: # whether to load previously trained CIF-based ASR model body
+    pretrained_cif_body_model_path:
+
+    # Freezing settings
+    freeze_specific_variables: # whether to freeze ASR model
+    freeze_contextual_encoder: # whether to freeze the parameters of CPN encoder
+
+    use_fp16: # whether to use float16
+    use_hvd_optimizer:
+    use_hvd_Adasum:
+
+    # log and print settings
+    log_and_see:
+
+    # Enable/Disable utterance id
+    use_utter_id:
+
+train:
+    optimizer: # the type of optimizer, default using adam_plateau_lazy
+    weight_decay: # the rate of weight decay
+    stop_warmup_step:   # when to stop warmup
+    start_decay_step:   # when to start decay
+    end_decay_step:     # when to end decay
+    each_decay_step:    # the frequency of decay
+    peak_lr:            # the peak learning rate
+    init_lr:            # the init learning rate
+    shrink_time:        # the shrink time of each decay
+
+    learning_rate: # the learning rate
+    beta1: # beta1 in adam optimizer, default 0.90
+    beta2: # beta2 in adam optimizer, default 0.98
+    epsilon: # epsilon in adam optimizer, default 1e-9
+    warmup_steps:
+    grads_clip: # gradient clip threshold
+
+    # evaluation setting
+    text_decode_func:
+    beam_size:
+    top_beams:
+
+    # gradient calculation
+    used_loss_names:
+    summary_freq:
+    logging_freq:
+
+    metric_not_grow_limits:
+    save_checkpoint_freq:
+    total_train_step:
+    just_eval:
+
+    # gradient accumulation
+    use_grad_accumulation: # whether to apply gradient accumulation
+    accumulation_step: # the number of accumulation times
+
+eval:
+    average_ckpts: # whether to average several latest models
+    num_averaging_ckpts:
+
+    # evaluation setting
+    text_decode_func:
+    beam_size: # the beam size of beam search decoding
+    top_beams:
+
+data:
+    # data generator configs
+    tfrecord_on_hdfs:
+    hdfs_data_dir:
+    eval_on_hdfs:
+    # if data not on hdfs
+    data_basedir:
+
+    num_shards:
+    clear_existed:
+
+    # data reader configs
+    data_type:
+    scp_feat_total_dim: # the dimenison of raw acoustic features
+    scp_feat_channel_num:
+    scp_feat_use_delta: # whether to use delta
+    max_input_seq_length:
+    max_target_seq_length:
+    preprocess:
+    max_expected_batch_size_per_gpu:
+
+    frms_per_train_batch: # total number of frames per training batch
+    frms_per_eval_batch: # total number of frames per training batch
+    train_boundaries: # boundaries for data bucketing
+    dev_boundaries: # boundaries for data bucketing
+    eval_boundaries: # boundaries for data bucketing
+    max_length:
+    min_length:
+
+    max_phrase_len:
+
+    # in order to prevent OOM, directly pointing the batch_size of last bucket
+    pointed_last_bucket_bs:
+
+    # accelerate the speed of data reading
+    faster_hdfs_reading:
+    hvd_reading:

@@ -205,7 +205,7 @@ model:
     joint_ctxt_temperature: 1.0
     only_ctxt_greedy_decoding: False
     coldec_lambda: 0.5
-    topk_renormalize: False # False during training and True during inference
+    topk_renormalize: False
     renormalize_topk_num: 10
     use_asi: False
 
@@ -223,11 +223,19 @@ model:
 
     # log and print settings
     log_and_see: False
+#    print_attention_weights: True
+#    print_inserted_phrases: True
 
     # Enable/Disable utterance id
     use_utter_id: False
 
 train:
+    # optimizing relevants
+#    optimizer: "lazy_adam_decay"
+#    learning_rate: 0.4
+#    warmup_steps: 36000
+#    grads_clip: 1.0
+
     optimizer: "adam_plateau_lazy"
     weight_decay: 0.00001
     stop_warmup_step: 1000
@@ -252,10 +260,20 @@ train:
     summary_freq: 100
     logging_freq: 100
 
+    # training process control
+    early_stop_metric: "wer"
+
     metric_not_grow_limits: 8000
+#    save_checkpoint_freq: 10
     save_checkpoint_freq: 800
     total_train_step: 80000
     just_eval: False
+
+    # extra
+    write_results: True
+    eval_on_dev: True
+    use_daisy_chain_getter: False
+    max_saved_checkpoints: 20
 
     # gradient accumulation
     use_grad_accumulation: True
@@ -268,4 +286,47 @@ eval:
     # evaluation setting
     text_decode_func: "ag20k_cif_text_decode"
     beam_size: 10
+#    beam_size: 1
     top_beams: 1
+
+    output_probs: False
+    not_show_results: False
+
+data:
+    # data generator configs
+    tfrecord_on_hdfs: True
+    hdfs_data_dir: ""
+    eval_on_hdfs: False
+    # if data not on hdfs
+    data_basedir: "/opt/tiger/CIF/egs/librispeech/data"
+
+    num_shards: 32
+    clear_existed: False
+
+    # data reader configs
+    data_type: "asr_data_with_ngrams_with_uttid"
+#    data_type: "asr_data_with_ngrams"
+    scp_feat_total_dim: 80
+    scp_feat_channel_num: 1
+    scp_feat_use_delta: False
+    max_input_seq_length:
+    max_target_seq_length:
+    preprocess: True
+    max_expected_batch_size_per_gpu: 2048
+
+    frms_per_train_batch: 40000
+    frms_per_eval_batch: 30000
+    train_boundaries: "690,952,1116,1212,1274,1319,1355,1385,1411,1435,1456,1476,1496,1514,1533,1551,1569,1588,1617"
+    dev_boundaries: "690,952,1116,1212,1274,1319,1355,1385,1411,1435,1456,1476,1496,1514,1533,1551,1569,1588,1617"
+    eval_boundaries: "690,952,1116,1212,1274,1319,1355,1385,1411,1435,1456,1476,1496,1514,1533,1551,1569,1588,1617"
+    max_length: 2000
+    min_length: 100
+
+    max_phrase_len: 30
+
+    # in order to prevent OOM, directly pointing the batch_size of last bucket
+    pointed_last_bucket_bs:
+
+    # accelerate the speed of data reading
+    faster_hdfs_reading: True
+    hvd_reading: True
