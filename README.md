@@ -3,7 +3,7 @@ Supporting Information for enhanced Collaborative Decoding (ColDec) on CIF-based
 
 ### 1. **Data**
 
-Note that all biasing lists are session-level, because each utterance in one test set shares the same biasing list.
+Note that all biasing lists are session-level, because each utterance in one test set shares the same biasing list. All our contextual biasing experiments are for open-domain scenarios where biasing phrases appears in any textual context. 
 
 #### a. **LibriSpeech**
 Files in data directory are simulated session-level biasing phrases for test-clean and test-other, respectively. Details about LibriSpeech test sets and biasing lists are listed as follows:
