@@ -30,11 +30,11 @@ The in-house 160k hours ASR datasets contains Chinese Mandarin audios and Englis
 
 Here are some examples of test-term:
 
-波峰我最多我希望只拿到他的一个 包络线 (biasing phrases: 包括线)
+1）波峰我最多我希望只拿到他的一个 包络线 (biasing phrases: 包括线)
 
-然后我得到文本序列以后我有可能进一步进步 数据挖掘 意图识别 视频识别 句法分析 等等等等  (biasing phrases: 数据挖掘、意图识别、句法分析)
+2）然后我得到文本序列以后我有可能进一步进步 数据挖掘 意图识别 视频识别 句法分析 等等等等  (biasing phrases: 数据挖掘、意图识别、句法分析)
 
-汉字是由 象形文字 发展而来的因此可以采用类似于图像识别的方式对汉字进行 形近字挖掘  (biasing phrases: 象形文字、形近字挖掘)
+3）汉字是由 象形文字 发展而来的因此可以采用类似于图像识别的方式对汉字进行 形近字挖掘  (biasing phrases: 象形文字、形近字挖掘)
 
 ### 2. **Config**
 Complete Configuration files in config directory cover all experiments on LibriSpeech in paper. The learning rate scheduler is shown here:
