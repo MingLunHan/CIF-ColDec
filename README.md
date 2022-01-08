@@ -28,6 +28,12 @@ The in-house 160k hours ASR datasets contains Chinese Mandarin audios and Englis
 | Type of biasing phrases                             | name | term |
 | Coverage (%) (# of all biasing tokens in references / # of all tokens in references) | 18.7 | 35.5 |
 
+Here are some examples of test-name and test-other:
+
+波峰我最多我希望只拿到他的一个<font color=red>包络线</font>
+
+Words in red are biasing phrases.
+
 ### 2. **Config**
 Complete Configuration files in config directory cover all experiments on LibriSpeech in paper. The learning rate scheduler is shown here:
 
