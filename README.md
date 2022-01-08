@@ -28,11 +28,13 @@ The in-house 160k hours ASR datasets contains Chinese Mandarin audios and Englis
 | Type of biasing phrases                             | name | term |
 | Coverage (%) (# of all biasing tokens in references / # of all tokens in references) | 18.7 | 35.5 |
 
-Here are some examples of test-name and test-other:
+Here are some examples of test-term:
 
-波峰我最多我希望只拿到他的一个<font color=red>包络线</font>
+波峰我最多我希望只拿到他的一个 包络线 (biasing phrases: 包括线)
 
-Words in red are biasing phrases.
+然后我得到文本序列以后我有可能进一步进步 数据挖掘 意图识别 视频识别 句法分析等等等等  (biasing phrases: 数据挖掘、意图识别、句法分析)
+
+汉字是由 象形文字 发展而来的因此可以采用类似于图像识别的方式对汉字进行 形近字挖掘  (biasing phrases: 象形文字、形近字挖掘)
 
 ### 2. **Config**
 Complete Configuration files in config directory cover all experiments on LibriSpeech in paper. The learning rate scheduler is shown here:
