@@ -30,7 +30,7 @@ The in-house 160k hours ASR datasets contains Chinese Mandarin audios and Englis
 
 Here are some examples of test-term:
 
-1）波峰我最多我希望只拿到他的一个 包络线 (biasing phrases: 包括线)
+1）波峰我最多我希望只拿到他的一个 包络线 (biasing phrases: 包络线)
 
 2）然后我得到文本序列以后我有可能进一步进步 数据挖掘 意图识别 视频识别 句法分析 等等等等  (biasing phrases: 数据挖掘、意图识别、句法分析)
 
