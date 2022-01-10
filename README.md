@@ -36,6 +36,12 @@ Here are some examples of test-term:
 
 3）汉字是由 **象形文字** 发展而来的因此可以采用类似于图像识别的方式对汉字进行 **形近字挖掘**  (biasing phrases: 象形文字、形近字挖掘)
 
+Here are some examples of test-name:
+
+1) **肇兴** 一起加进来我们聊一下数据合规性的事吧 (biasing phrases: 肇兴)
+
+2) 所以你刚刚举的 **张小花** 这个我觉得不是一个特别典型的一个例子吧但是的确是其中的一种情况（biasing phrases: 张小花）
+
 ### 2. **Config**
 Complete Configuration files in config directory cover all experiments on LibriSpeech in paper. The learning rate scheduler is shown here:
 
