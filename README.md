@@ -1,5 +1,5 @@
 # **CIF-ColDec**
-Supporting Information for enhanced Collaborative Decoding (ColDec) on CIF-based Speech Recognition for the convenience of reproductivity and comparison.
+Supporting Information for paper **IMPROVING END-TO-END CONTEXTUAL SPEECH RECOGNITION WITH FINE-GRAINED CONTEXTUAL KNOWLEDGE SELECTION** for the convenience of reproductivity and comparison.
 
 ### 1. **Data**
 
