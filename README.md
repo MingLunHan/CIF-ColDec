@@ -48,7 +48,7 @@ Complete Configuration files in config directory cover all experiments on LibriS
 ![image](https://github.com/MingLunHan/CIF-ColDec/blob/main/learning_rate_scheduler.png)
 
 ### 3. **References**
-\[1\] CIF-based Collaborative Decoding for End-to-end Contextual Speech Recognition https://arxiv.org/abs/2012.09466
+\[1\] CIF-based Collaborative Decoding for End-to-end Contextual Speech Recognition https://ieeexplore.ieee.org/document/9415054
 
-\[2\] CIF: Continuous Integrate-and-Fire for End-to-End Speech Recognition https://arxiv.org/abs/1905.11235
+\[2\] CIF: Continuous Integrate-and-Fire for End-to-End Speech Recognition https://ieeexplore.ieee.org/document/9054250
 
