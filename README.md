@@ -50,5 +50,7 @@ Complete Configuration files in config directory cover all experiments on LibriS
 ### 3. **References**
 \[1\] CIF-based Collaborative Decoding for End-to-end Contextual Speech Recognition https://ieeexplore.ieee.org/document/9415054
 
-\[2\] CIF: Continuous Integrate-and-Fire for End-to-End Speech Recognition https://ieeexplore.ieee.org/document/9054250
+\[2\] IMPROVING END-TO-END CONTEXTUAL SPEECH RECOGNITION WITH FINE-GRAINED CONTEXTUAL KNOWLEDGE SELECTION https://arxiv.org/abs/2201.12806
+
+\[3\] CIF: Continuous Integrate-and-Fire for End-to-End Speech Recognition https://ieeexplore.ieee.org/document/9054250
 
