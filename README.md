@@ -48,7 +48,7 @@ Complete Configuration files in config directory cover all experiments on LibriS
 ![image](https://github.com/MingLunHan/CIF-ColDec/blob/main/learning_rate_scheduler.png)
 
 ### 3. **References**
-\[1\] CIF-based Collaborative Decoding for End-to-end Contextual Speech Recognition https://ieeexplore.ieee.org/document/9415054
+\[1\] CIF-based Collaborative Decoding for End-to-End Contextual Speech Recognition https://ieeexplore.ieee.org/document/9415054
 
 \[2\] Improving End-to-End Contextual Speech Recognition with Fine-grained Contextual Knowledge Selection https://arxiv.org/abs/2201.12806
 
