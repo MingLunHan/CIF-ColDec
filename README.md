@@ -1,7 +1,7 @@
 # **CIF-ColDec**
 Supporting Information of paper **IMPROVING END-TO-END CONTEXTUAL SPEECH RECOGNITION WITH FINE-GRAINED CONTEXTUAL KNOWLEDGE SELECTION** (which has been accepted for presentation at IEEE ICASSP 2022) for the convenience of reproductivity and comparison.
 
-### 1. **Data**
+### 1. **Datasets**
 
 Note that all biasing lists are session-level, because each utterance in one test set shares the same biasing list. All our contextual biasing experiments are for open-domain scenarios where biasing phrases may appear in any textual context. 
 
@@ -42,7 +42,7 @@ Here are some examples of test-name:
 
 2) 所以你刚刚举的 **张小花** 这个我觉得不是一个特别典型的一个例子吧但是的确是其中的一种情况（Target biasing phrases: 张小花）
 
-### 2. **Config**
+### 2. **Configurations**
 Complete Configuration files in config directory cover all experiments on LibriSpeech in paper. The learning rate scheduler is shown here:
 
 ![image](https://github.com/MingLunHan/CIF-ColDec/blob/main/learning_rate_scheduler.png)
