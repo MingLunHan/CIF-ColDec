@@ -1,5 +1,5 @@
 # **CIF-ColDec**
-Supporting information of paper **IMPROVING END-TO-END CONTEXTUAL SPEECH RECOGNITION WITH FINE-GRAINED CONTEXTUAL KNOWLEDGE SELECTION** https://ieeexplore.ieee.org/document/9415054 (which has been accepted for presentation at IEEE ICASSP 2022) for the convenience of reproductivity and comparison.
+Supporting information of paper **IMPROVING END-TO-END CONTEXTUAL SPEECH RECOGNITION WITH FINE-GRAINED CONTEXTUAL KNOWLEDGE SELECTION** https://arxiv.org/abs/2201.12806 (which has been accepted for presentation at IEEE ICASSP 2022) for the convenience of reproductivity and comparison.
 
 ### 1. **Datasets**
 
