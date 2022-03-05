@@ -57,7 +57,7 @@ Complete Configuration files in config directory cover all experiments on LibriS
 
 \[3\] CIF: Continuous Integrate-and-Fire for End-to-End Speech Recognition https://ieeexplore.ieee.org/document/9054250
 
-### Citing Detectron2
+### Citing ColDec
 If you are inspired by ColDec, please use following format.
 
 ```
