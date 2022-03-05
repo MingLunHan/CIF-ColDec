@@ -61,13 +61,14 @@ Complete Configuration files in config directory cover all experiments on LibriS
 If you are inspired by ColDec, please use following format.
 
 ```
-@inproceedings{han2021cif,
-  title={cif-based collaborative decoding for end-to-end contextual speech recognition},
+@INPROCEEDINGS{9415054,
   author={Han, Minglun and Dong, Linhao and Zhou, Shiyu and Xu, Bo},
-  booktitle={ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  pages={6528--6532},
+  booktitle={ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Cif-Based Collaborative Decoding for End-to-End Contextual Speech Recognition}, 
   year={2021},
-  organization={IEEE}
-}
+  volume={},
+  number={},
+  pages={6528-6532},
+  doi={10.1109/ICASSP39728.2021.9415054}}
 ```
 
