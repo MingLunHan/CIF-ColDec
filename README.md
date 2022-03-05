@@ -8,7 +8,7 @@ This repository includes all supporting information of paper **IMPROVING END-TO-
 
 Note that all biasing lists are session-level, because each utterance in one test set shares the same biasing list. All our contextual biasing experiments are for open-domain scenarios where biasing phrases may appear in any textual context. 
 
-#### a. **LibriSpeech**
+#### a. **LibriSpeech Public Dataset**
 Files in data directory are simulated session-level biasing phrases for test-clean and test-other, respectively. Details about LibriSpeech test sets and biasing lists are listed as follows:
 
 | Details                                             | test-clean | test-other |
