@@ -1,6 +1,6 @@
 # **CIF-ColDec**
 
-ColDec is proposed to customize the CIF-based ASR models. The application of ColDec in contextual biasing is the first attempt to integrate textual knowledge or contents using token-level acoustic information in the CIF-based models.
+ColDec is proposed to customize the CIF-based ASR models. The application of ColDec in the field of contextual biasing is the first attempt to integrate textual knowledge or contents using token-level acoustic information in the CIF-based models.
 
 Supporting information of paper **IMPROVING END-TO-END CONTEXTUAL SPEECH RECOGNITION WITH FINE-GRAINED CONTEXTUAL KNOWLEDGE SELECTION** https://arxiv.org/abs/2201.12806 (which has been accepted for presentation at IEEE ICASSP 2022) for the convenience of reproductivity and comparison.
 
