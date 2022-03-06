@@ -66,6 +66,7 @@ Complete Configuration files in config directory cover all experiments on LibriS
 If you are inspired by ColDec and need to cite it, please use following format.
 
 ##### Original ColDec:
+
 ```
 @INPROCEEDINGS{9415054,
   author={Han, Minglun and Dong, Linhao and Zhou, Shiyu and Xu, Bo},
@@ -75,9 +76,12 @@ If you are inspired by ColDec and need to cite it, please use following format.
   volume={},
   number={},
   pages={6528-6532},
-  doi={10.1109/ICASSP39728.2021.9415054}}
+  doi={10.1109/ICASSP39728.2021.9415054}
+}
 ```
+
 ##### Enhanced ColDec with FineCoS:
+
 ```
 @article{han2022improving,
   title={Improving End-to-End Contextual Speech Recognition with Fine-Grained Contextual Knowledge Selection},
