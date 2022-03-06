@@ -9,6 +9,7 @@ This repository includes all supporting information of paper **IMPROVING END-TO-
 Note that all biasing lists are session-level, because each utterance in one test set shares the same biasing list. All our contextual biasing experiments are for open-domain scenarios where biasing phrases may appear in any textual context. 
 
 #### a. **LibriSpeech Public Dataset**
+
 Files in data directory are simulated session-level biasing phrases for test-clean and test-other, respectively. Details about LibriSpeech test sets and biasing lists are listed as follows:
 
 | Details                                             | test-clean | test-other |
@@ -19,6 +20,7 @@ Files in data directory are simulated session-level biasing phrases for test-cle
 | Coverage (%) (# of all biasing words in references / # of all words in references) | 2.74 | 2.78 |
 
 #### b. **In-house Large-scale 160k Hours Dataset**
+
 The in-house 160k hours ASR datasets contains Chinese Mandarin audios and English audios. Most of the data are self-collected and manually labeled. Audios are collected from some common acoustic scenarios and videos. Its test sets are collected from internal real meetings. The names of participants and the terms of aritificial intelligence, pattern recognition, signal processing, are treated as contextual information. Details about the in-house test sets and biasing lists are listed as follows:
 
 | Details                                             | test-name | test-term |
@@ -46,21 +48,24 @@ Here are some examples of test-name:
 2) 所以你刚刚举的 **张小花** 这个我觉得不是一个特别典型的一个例子吧但是的确是其中的一种情况（Target biasing phrases: 张小花）
 
 ### 2. **Configurations**
+
 Complete Configuration files in config directory cover all experiments on LibriSpeech. The learning rate scheduler is shown as follows:
 
 ![image](https://github.com/MingLunHan/CIF-ColDec/blob/main/learning_rate_scheduler.png)
 
 ### 3. **References**
+
 \[1\] CIF-based Collaborative Decoding for End-to-End Contextual Speech Recognition https://ieeexplore.ieee.org/document/9415054
 
 \[2\] Improving End-to-End Contextual Speech Recognition with Fine-Grained Contextual Knowledge Selection https://arxiv.org/abs/2201.12806
 
 \[3\] CIF: Continuous Integrate-and-Fire for End-to-End Speech Recognition https://ieeexplore.ieee.org/document/9054250
 
-### Citing ColDec
+### 4. **Citing ColDec**
+
 If you are inspired by ColDec and need to cite it, please use following format.
 
-Original ColDec:
+##### Original ColDec:
 ```
 @INPROCEEDINGS{9415054,
   author={Han, Minglun and Dong, Linhao and Zhou, Shiyu and Xu, Bo},
@@ -73,7 +78,7 @@ Original ColDec:
   doi={10.1109/ICASSP39728.2021.9415054}}
 ```
 
-Enhanced ColDec with FineCoS:
+##### Enhanced ColDec with FineCoS:
 ```
 @article{han2022improving,
   title={Improving End-to-End Contextual Speech Recognition with Fine-Grained Contextual Knowledge Selection},
