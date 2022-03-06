@@ -46,7 +46,7 @@ Here are some examples of test-name:
 2) 所以你刚刚举的 **张小花** 这个我觉得不是一个特别典型的一个例子吧但是的确是其中的一种情况（Target biasing phrases: 张小花）
 
 ### 2. **Configurations**
-Complete Configuration files in config directory cover all experiments on LibriSpeech in paper. The learning rate scheduler is shown here:
+Complete Configuration files in config directory cover all experiments on LibriSpeech. The learning rate scheduler is shown as follows:
 
 ![image](https://github.com/MingLunHan/CIF-ColDec/blob/main/learning_rate_scheduler.png)
 
@@ -60,6 +60,7 @@ Complete Configuration files in config directory cover all experiments on LibriS
 ### Citing ColDec
 If you are inspired by ColDec and need to cite it, please use following format.
 
+Original ColDec:
 ```
 @INPROCEEDINGS{9415054,
   author={Han, Minglun and Dong, Linhao and Zhou, Shiyu and Xu, Bo},
@@ -70,5 +71,15 @@ If you are inspired by ColDec and need to cite it, please use following format.
   number={},
   pages={6528-6532},
   doi={10.1109/ICASSP39728.2021.9415054}}
+```
+
+Enhanced ColDec with FineCoS:
+```
+@article{han2022improving,
+  title={Improving End-to-End Contextual Speech Recognition with Fine-Grained Contextual Knowledge Selection},
+  author={Han, Minglun and Dong, Linhao and Liang, Zhenlin and Cai, Meng and Zhou, Shiyu and Ma, Zejun and Xu, Bo},
+  journal={arXiv preprint arXiv:2201.12806},
+  year={2022}
+}
 ```
 
