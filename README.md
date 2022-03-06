@@ -77,7 +77,6 @@ If you are inspired by ColDec and need to cite it, please use following format.
   pages={6528-6532},
   doi={10.1109/ICASSP39728.2021.9415054}}
 ```
-
 ##### Enhanced ColDec with FineCoS:
 ```
 @article{han2022improving,
