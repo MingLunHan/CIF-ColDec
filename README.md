@@ -65,7 +65,7 @@ Complete Configuration files in config directory cover all experiments on LibriS
 
 If you are inspired by ColDec and need to cite it, please use following format.
 
-##### Original ColDec:
+#### a. Original ColDec:
 
 ```
 @INPROCEEDINGS{9415054,
@@ -80,7 +80,7 @@ If you are inspired by ColDec and need to cite it, please use following format.
 }
 ```
 
-##### Enhanced ColDec with FineCoS:
+#### b. Enhanced ColDec with FineCoS:
 
 ```
 @article{han2022improving,
