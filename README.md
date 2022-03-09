@@ -51,11 +51,11 @@ Here are some examples of test-name:
 
 Complete Configuration files in config directory cover all experiments on LibriSpeech. The learning rate scheduler is shown as follows:
 
-<img src="https://github.com/MingLunHan/CIF-ColDec/blob/main/learning_rate_scheduler.png" width="100%" height="100%">
+<img src="https://github.com/MingLunHan/CIF-ColDec/blob/main/learning_rate_scheduler.png" width="50%" height="50%">
 
 ### 3. **Results on LibriSpeech**
 
-<img src="https://github.com/MingLunHan/CIF-ColDec/blob/main/res_on_librispeech.png" width="100%" height="100%">
+<img src="https://github.com/MingLunHan/CIF-ColDec/blob/main/res_on_librispeech.png" width="50%" height="50%">
 
 ### 4. **References**
 
