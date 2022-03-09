@@ -67,7 +67,7 @@ Complete Configuration files in config directory cover all experiments on LibriS
 
 ### 5. **Citing ColDec**
 
-If you are inspired by ColDec and need to cite it, please use following format.
+If you are inspired by ColDec or need to cite it, please use following format.
 
 #### a. Original ColDec:
 
