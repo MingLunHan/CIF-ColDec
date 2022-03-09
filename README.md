@@ -55,7 +55,7 @@ Complete Configuration files in config directory cover all experiments on LibriS
 
 ### 3. **Results on LibriSpeech**
 
-pass
+![image](https://github.com/MingLunHan/CIF-ColDec/blob/main/res_on_librispeech.png)
 
 ### 4. **References**
 
