@@ -83,7 +83,6 @@ If you are inspired by ColDec or need to cite it, please use following format.
   doi={10.1109/ICASSP39728.2021.9415054}
 }
 ```
-
 #### b. Enhanced ColDec with FineCoS:
 
 ```
