@@ -84,7 +84,6 @@ If you are inspired by ColDec or need to cite it, please use following format.
 }
 ```
 #### b. Enhanced ColDec with FineCoS:
-
 ```
 @article{han2022improving,
   title={Improving End-to-End Contextual Speech Recognition with Fine-Grained Contextual Knowledge Selection},
