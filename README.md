@@ -67,7 +67,7 @@ Complete Configuration files in config directory cover all experiments on LibriS
 
 ### 5. **Other CIF Resources**
 
-#### Papers:
+#### a. Papers:
 
 ##### ASR:
   - CIF: Continuous Integrate-and-Fire for End-to-End Speech Recognition https://ieeexplore.ieee.org/document/9054250
@@ -83,7 +83,7 @@ Complete Configuration files in config directory cover all experiments on LibriS
 ##### Non-autoregressive ASR:
   - Boundary and Context Aware Training for CIF-based Non-Autoregressive End-to-end ASR https://arxiv.org/abs/2104.04702
 
-#### Repositories:
+#### b. Repositories:
 
 - A PyTorch implementation of a independent CIF module: https://github.com/MingLunHan/CIF-PyTorch
 
@@ -93,7 +93,7 @@ Complete Configuration files in config directory cover all experiments on LibriS
 
 If you are inspired by ColDec or need to cite it, please use following format.
 
-#### Original ColDec:
+#### a. Original ColDec:
 
 ```
 @INPROCEEDINGS{9415054,
@@ -107,7 +107,7 @@ If you are inspired by ColDec or need to cite it, please use following format.
   doi={10.1109/ICASSP39728.2021.9415054}
 }
 ```
-#### Enhanced ColDec with FineCoS:
+#### b. Enhanced ColDec with FineCoS:
 ```
 @article{han2022improving,
   title={Improving End-to-End Contextual Speech Recognition with Fine-Grained Contextual Knowledge Selection},
