@@ -65,7 +65,20 @@ Complete Configuration files in config directory cover all experiments on LibriS
 
 \[3\] CIF: Continuous Integrate-and-Fire for End-to-End Speech Recognition https://ieeexplore.ieee.org/document/9054250
 
-### 5. **Citing ColDec**
+### 5. **Other CIF Resources**
+
+1. ASR:
+- CIF: Continuous Integrate-and-Fire for End-to-End Speech Recognition
+- A Comparison of Label-Synchronous and Frame-Synchronous End-to-End Models for Speech Recognition
+2. Contextualization & Customization & Personalization:
+- CIF-based Collaborative Decoding for End-to-End Contextual Speech Recognition
+- Improving End-to-End Contextual Speech Recognition with Fine-Grained Contextual Knowledge Selection
+3. Low-resource Speech Recognition:
+- Efficiently Fusing Pretrained Acoustic and Linguistic Encoders for Low-resource Speech Recognition
+4. Non-autoregressive ASR:
+- Boundary and Context Aware Training for CIF-based Non-Autoregressive End-to-end ASR
+
+### 6. **Citing ColDec**
 
 If you are inspired by ColDec or need to cite it, please use following format.
 
@@ -92,4 +105,5 @@ If you are inspired by ColDec or need to cite it, please use following format.
   year={2022}
 }
 ```
+
 
