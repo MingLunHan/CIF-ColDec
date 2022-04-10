@@ -68,20 +68,23 @@ Complete Configuration files in config directory cover all experiments on LibriS
 ### 5. **Other CIF Resources**
 
 Papers:
-1. ASR:
+
+ASR:
   - CIF: Continuous Integrate-and-Fire for End-to-End Speech Recognition
   - A Comparison of Label-Synchronous and Frame-Synchronous End-to-End Models for Speech Recognition
-2. Contextualization & Customization & Personalization:
+Contextualization & Customization & Personalization:
   - CIF-based Collaborative Decoding for End-to-End Contextual Speech Recognition
   - Improving End-to-End Contextual Speech Recognition with Fine-Grained Contextual Knowledge Selection
-3. Low-resource Speech Recognition:
+Low-resource Speech Recognition:
   - Efficiently Fusing Pretrained Acoustic and Linguistic Encoders for Low-resource Speech Recognition
-4. Non-autoregressive ASR:
+Non-autoregressive ASR:
   - Boundary and Context Aware Training for CIF-based Non-Autoregressive End-to-end ASR
 
 Repositories:
-A PyTorch implementation of dependent CIF module: https://github.com/MingLunHan/CIF-PyTorch
-CIF-based Contextualization: https://github.com/MingLunHan/CIF-ColDec
+
+- A PyTorch implementation of dependent CIF module: https://github.com/MingLunHan/CIF-PyTorch
+
+- CIF-based Contextualization: https://github.com/MingLunHan/CIF-ColDec
 
 ### 6. **Citing ColDec**
 
