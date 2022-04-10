@@ -70,18 +70,18 @@ Complete Configuration files in config directory cover all experiments on LibriS
 **Papers**:
 
 ASR:
-  - CIF: Continuous Integrate-and-Fire for End-to-End Speech Recognition
-  - A Comparison of Label-Synchronous and Frame-Synchronous End-to-End Models for Speech Recognition
+  - CIF: Continuous Integrate-and-Fire for End-to-End Speech Recognition https://ieeexplore.ieee.org/document/9054250
+  - A Comparison of Label-Synchronous and Frame-Synchronous End-to-End Models for Speech Recognition https://arxiv.org/abs/2005.10113
 
 Contextualization & Customization & Personalization:
-  - CIF-based Collaborative Decoding for End-to-End Contextual Speech Recognition
-  - Improving End-to-End Contextual Speech Recognition with Fine-Grained Contextual Knowledge Selection
+  - CIF-based Collaborative Decoding for End-to-End Contextual Speech Recognition https://ieeexplore.ieee.org/document/9415054
+  - Improving End-to-End Contextual Speech Recognition with Fine-Grained Contextual Knowledge Selection https://arxiv.org/abs/2201.12806
 
 Low-resource Speech Recognition:
-  - Efficiently Fusing Pretrained Acoustic and Linguistic Encoders for Low-resource Speech Recognition
+  - Efficiently Fusing Pretrained Acoustic and Linguistic Encoders for Low-resource Speech Recognition https://arxiv.org/abs/2101.06699
 
 Non-autoregressive ASR:
-  - Boundary and Context Aware Training for CIF-based Non-Autoregressive End-to-end ASR
+  - Boundary and Context Aware Training for CIF-based Non-Autoregressive End-to-end ASR https://arxiv.org/abs/2104.04702
 
 **Repositories**:
 
