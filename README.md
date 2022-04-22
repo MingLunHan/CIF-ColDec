@@ -84,6 +84,10 @@ Complete Configuration files in config directory cover all experiments on LibriS
   - Boundary and Context Aware Training for CIF-based Non-Autoregressive End-to-end ASR https://arxiv.org/abs/2104.04702
   - A Comparative Study on Non-Autoregressive Modelings for Speech-to-Text Generation https://arxiv.org/abs/2110.05249
   - Non-Autoregressive Lipreading Model with Integrate-and-Fire https://arxiv.org/abs/2008.02516
+  - FastLR: non-autoregressive lipreading model with integrate-and-fire https://arxiv.org/pdf/2008.02516
+
+**Speech Translation**:
+  - Exploring Continuous Integrate-and-Fire for Adaptive Simultaneous Speech Translation https://arxiv.org/abs/2204.09595
 
 #### b. Repositories:
 
