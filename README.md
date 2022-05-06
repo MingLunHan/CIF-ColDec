@@ -115,12 +115,7 @@ If you are inspired by ColDec or need to cite it, please use following format.
 ```
 #### b. Enhanced ColDec with FineCoS:
 ```
-@article{han2022improving,
-  title={Improving End-to-End Contextual Speech Recognition with Fine-Grained Contextual Knowledge Selection},
-  author={Han, Minglun and Dong, Linhao and Liang, Zhenlin and Cai, Meng and Zhou, Shiyu and Ma, Zejun and Xu, Bo},
-  journal={arXiv preprint arXiv:2201.12806},
-  year={2022}
-}
+@INPROCEEDINGS{9747101,  author={Han, Minglun and Dong, Linhao and Liang, Zhenlin and Cai, Meng and Zhou, Shiyu and Ma, Zejun and Xu, Bo},  booktitle={ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},   title={Improving End-to-End Contextual Speech Recognition with Fine-Grained Contextual Knowledge Selection},   year={2022},  volume={},  number={},  pages={8532-8536},  doi={10.1109/ICASSP43922.2022.9747101}}
 ```
 
 
