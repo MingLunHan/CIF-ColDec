@@ -2,7 +2,7 @@
 
 Collaborative decoding (ColDec) is proposed to customize the CIF-based ASR models. The application of ColDec in the field of ASR contextualization, customization and personalization is the first attempt to integrate textual knowledge or contents using token-level acoustic representations in the CIF-based models.
 
-This repository includes all supporting information of paper **IMPROVING END-TO-END CONTEXTUAL SPEECH RECOGNITION WITH FINE-GRAINED CONTEXTUAL KNOWLEDGE SELECTION** https://arxiv.org/abs/2201.12806 (which has been accepted for presentation at IEEE ICASSP 2022) for the convenience of reproductivity and comparison.
+This repository includes all supporting information of paper **IMPROVING END-TO-END CONTEXTUAL SPEECH RECOGNITION WITH FINE-GRAINED CONTEXTUAL KNOWLEDGE SELECTION** https://ieeexplore.ieee.org/document/9747101 (which has been accepted for presentation at IEEE ICASSP 2022) for the convenience of reproductivity and comparison.
 
 ### 1. **Datasets**
 
