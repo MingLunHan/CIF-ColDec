@@ -4,6 +4,8 @@ Collaborative decoding (ColDec) is proposed to customize the CIF-based ASR model
 
 This repository includes all supporting information of paper **IMPROVING END-TO-END CONTEXTUAL SPEECH RECOGNITION WITH FINE-GRAINED CONTEXTUAL KNOWLEDGE SELECTION** https://ieeexplore.ieee.org/document/9747101 (which has been accepted for presentation at IEEE ICASSP 2022) for the convenience of reproductivity and comparison.
 
+If you have any questions, please consult hanminglun1996@foxmail.com .
+
 ### 1. **Datasets**
 
 Note that all biasing lists are session-level, because each utterance in one test set shares the same biasing list. All our contextual biasing experiments are for open-domain scenarios where biasing phrases may appear in any textual context. 
